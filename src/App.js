@@ -5,7 +5,7 @@ import Header from './componenets/Header';
 import Home from './componenets/Home';
 import Contact from './componenets/Contact';
 import Pricing from './componenets/Pricing';
-import {BrowsrRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route exact path='/' element={<Home />}></Route>
-        <Route exact path='/' element={<Contact />}></Route>
-        <Route exact path='/' element={<Pricing />}></Route>
+        <Route exact path='/contact' element={<Contact />}></Route>
+        <Route exact path='/pricing' element={<Pricing />}></Route>
       </Routes>
       </Router>
     </div>
