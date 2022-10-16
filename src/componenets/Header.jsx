@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {Navbar, Nav ,Container} from 'react-bootstrap';
 
 
@@ -9,9 +10,9 @@ const Header =()=>{
         <Container>
           <Navbar.Brand href="#home">online shop</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/react_deploy/">Home</Nav.Link>
-            <Nav.Link href="/react_deploy/contact">Contact</Nav.Link>
-            <Nav.Link href="/react_deploy/pricing">Pricing</Nav.Link>
+            <Link to="/react_deploy/">Home</Link>
+            <Link to="/react_deploy/contact">Contact</Link>
+            <Link to="/react_deploy/pricing">Pricing</Link>
           </Nav>
         </Container>
       </Navbar> 
