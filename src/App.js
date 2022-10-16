@@ -12,9 +12,9 @@ function App() {
       <Router>
       <Header />
       <Switch>
-        <Route exact path='/' element={<Home />}></Route>
-        <Route exact path='/contact' element={<Contact />}></Route>
-        <Route exact path='/pricing' element={<Pricing />}></Route>
+        <Route exact path='/react_deploy/' element={<Home />}></Route>
+        <Route exact path='/react_deploy/contact' element={<Contact />}></Route>
+        <Route exact path='/react_deploy/pricing' element={<Pricing />}></Route>
       </Switch>
       </Router>
     
